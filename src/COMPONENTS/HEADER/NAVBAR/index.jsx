@@ -13,7 +13,6 @@ function NavBar({
   About,
   Faq,
   numberItems,
-  history,
   existUser,
   setModalLogout,
 }) {
