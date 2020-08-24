@@ -3,3 +3,10 @@
         width: 100% !important
     }
 }
+
+
+@media screen and (min-width: 1441px) and (max-width: 2700px) {
+    .payment__page__container{
+        min-height: 79.2vh !important;
+    }
+}

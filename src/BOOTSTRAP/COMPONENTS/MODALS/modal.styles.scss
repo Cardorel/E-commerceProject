@@ -1,3 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Freckle+Face&display=swap');
+
+@mixin logOutContainer {
+         top: 65px !important;
+        .logout__hover__style{
+            padding: 3px !important;
+            p{
+                font-size: 10px !important;
+            }
+        }
+}
+
 .logout__modal__style{
     position: absolute;
     right: 130px;
@@ -7,34 +19,33 @@
         color: rgb(165, 126, 126);
         transition: 350ms ease-in-out;
         cursor: pointer;
+
+        p{
+            font-family: 'Freckle Face', cursive !important;
+        }
     }
 }
 
 
-
-@media screen and (max-width: 375px){
+@media screen and (max-width: 320px){
     .logout__modal__style{
-        right: 68px !important;
-        top: 65px !important;
-        .logout__hover__style{
-            padding: 3px !important;
-            p{
-                font-size: 10px !important;
-            }
-        }
+        right: 67px !important;
+        @include logOutContainer;
+    }
+}
+
+
+@media screen and (min-width: 321px) and (max-width: 375px){
+    .logout__modal__style{
+        right: 93px !important;
+        @include logOutContainer;
     }
 }
 
 @media screen and (min-width: 376px) and (max-width: 425px){
     .logout__modal__style{
-        right: 75px !important;
-        top: 65px !important;
-        .logout__hover__style{
-            padding: 3px !important;
-            p{
-                font-size: 10px !important;
-            }
-        }
+        right: 119px !important;
+        @include logOutContainer;
     }
 }
 
@@ -60,6 +71,6 @@
 
 @media screen and (min-width:1444px) and (max-width: 2700px) {
     .logout__modal__style{
-        right: 269px !important;
+        right: 249px !important;
     }
 }

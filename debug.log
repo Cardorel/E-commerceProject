@@ -1,3 +1,4 @@
 [0720/214157.307:ERROR:process_reader_win.cc(155)] SuspendThread: Access is denied. (0x5)
 [0818/223622.050:ERROR:settings.cc(401)] Settings magic is not 1129342067
 [0819/221128.082:ERROR:settings.cc(401)] Settings magic is not 1129342067
+[0824/213740.995:ERROR:file_io.cc(134)] WriteFile: The pipe is being closed. (0xE8)

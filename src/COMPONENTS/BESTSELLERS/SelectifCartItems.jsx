@@ -8,7 +8,7 @@ import {Heart} from '../../FONTAWESOME/CARTITEM'
 
 function SelectifCartItems({ itemsCart , textColor }) {
   return (
-    <ContainerLayout fluid className="ml-0 container__select__item">
+    <ContainerLayout fluid className="container__select__item">
       <RowLayout className="ml-5">
         <h2 className={`mb-4 ${textColor}`}>
           <Heart /> BEST SELLERS

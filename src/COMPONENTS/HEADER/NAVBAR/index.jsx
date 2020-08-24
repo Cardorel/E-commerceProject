@@ -22,7 +22,7 @@ function NavBar({
       <ColLayout
         xs
         lg="5"
-        className="column__navbar text-capitalize font-weight-bold text-light"
+        className="column__navbar logo_header text-capitalize font-weight-bold text-light"
       >
         <Link to="/">
           <MyLogo />
