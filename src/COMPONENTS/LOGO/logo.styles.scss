@@ -1,0 +1,17 @@
+.my__log{
+    position: absolute;
+    bottom: -6px;
+    .imgLogo{
+        width:80px;
+    }    
+}
+
+
+@media screen and (max-width: 425px) {
+    .my__log{
+        bottom: -2px;
+        .imgLogo{
+            width:50px;
+        }    
+    }
+}

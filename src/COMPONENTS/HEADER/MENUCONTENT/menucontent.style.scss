@@ -1,0 +1,23 @@
+.menu__content__center{
+    margin: 150px 0;
+
+    .btn__style{
+        width: 180px;
+        margin: 70px 0;
+        border: 2px solid rgb(136, 221, 155);
+        color: rgb(136, 221, 155);
+        font-weight: bold;
+    }
+
+    .column__heading__style{
+        font-size: 45px;
+        height: 43px;
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+    .column__heading__style{
+        font-size: 25px !important;
+    }
+}

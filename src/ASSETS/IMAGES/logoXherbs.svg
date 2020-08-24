@@ -1,0 +1,24 @@
+<svg width="800.0000000000001" height="600" xmlns="http://www.w3.org/2000/svg">
+ <!-- Created with Method Draw - http://github.com/duopixel/Method-Draw/ -->
+ <defs>
+  <filter id="svg_2_blur">
+   <feGaussianBlur stdDeviation="0.2" in="SourceGraphic"/>
+  </filter>
+  <filter id="svg_3_blur">
+   <feGaussianBlur stdDeviation="0.1" in="SourceGraphic"/>
+  </filter>
+ </defs>
+ <g>
+  <title>background</title>
+  <rect fill="#fff" id="canvas_background" height="602" width="802" y="-1" x="-1"/>
+  <g display="none" overflow="visible" y="0" x="0" height="100%" width="100%" id="canvasGrid">
+   <rect fill="url(#gridpattern)" stroke-width="0" y="0" x="0" height="100%" width="100%"/>
+  </g>
+ </g>
+ <g>
+  <title>Layer 1</title>
+  <text opacity="0.78" font-style="italic" xml:space="preserve" text-anchor="start" font-family="Helvetica, Arial, sans-serif" font-size="24" id="svg_1" y="297" x="393.585938" stroke-width="0" stroke="#000" fill="#88dd9b">x</text>
+  <text stroke="#000" transform="matrix(0.8528751134872437,0,0,0.5503820481083638,59.06834310851991,130.75945052678736) " opacity="0.36" filter="url(#svg_2_blur)" font-style="italic" xml:space="preserve" text-anchor="start" font-family="'Palatino Linotype', 'Book Antiqua', Palatino, serif" font-size="9" id="svg_2" y="295.333329" x="405.495339" stroke-width="7" fill="#000000">herbs</text>
+  <text filter="url(#svg_3_blur)" font-style="italic" xml:space="preserve" text-anchor="start" font-family="'Palatino Linotype', 'Book Antiqua', Palatino, serif" font-size="9" id="svg_3" y="294.333341" x="403.995354" stroke-width="0" stroke="#000" fill="#000000">herbs</text>
+ </g>
+</svg>

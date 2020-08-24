@@ -1,0 +1,94 @@
+.promo__code__btn__style{
+    width: 25vw;
+    padding: 12px;
+    cursor: pointer;
+}
+
+.promo__code__textInput__style{
+    width: 25vw;
+    padding: 12px 60px 12px 20px;
+}
+
+
+.apply__promo__code{
+    cursor: pointer;
+    position: absolute;
+    top: 12px;
+    left: 21.2vw;
+    color: rgb(136, 221, 155);
+    font-size: 17px;
+    z-index: 1;
+}
+
+.cancel__promo__code{
+    cursor: pointer;
+    margin-left: 5px;
+    font-size: 17px;
+    z-index: 100;
+}
+
+@media screen and (max-width: 425px){
+    .promo__code__textInput__style{
+        padding: 9px 0 9px 8px;
+    }
+
+    .promo__code__btn__style{
+        font-size: 12px;
+        text-align: center;
+    }
+
+    .apply__promo__code{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .code__promos__container{
+        .apply__promo__code{
+            top: 16px;
+            left: 20.3vw;
+        }
+
+        .cancel__promo__code{
+            margin-left: 3px;
+        }
+
+        span{
+            font-size: 12px;
+        }
+    }
+}
+
+@media screen and (min-width: 1020px) and (max-width: 1348px){
+    .code__promos__container{
+        .apply__promo__code{
+            top: 11px;
+            left: 19.6vw;
+        }
+    }
+}
+
+
+@media screen and (min-width: 1441px) and (max-width: 2700px) {
+    .promo__code__btn__style{
+        width: 18vw;
+        padding: 12px;
+        cursor: pointer;
+    }
+
+    .promo__code__textInput__style{
+        width: 18vw;
+        padding: 12px 60px 12px 20px;
+    }
+
+
+    .apply__promo__code{
+        cursor: pointer;
+        position: absolute;
+        top: 12px;
+        left: 15.9vw;
+        color: rgb(136, 221, 155);
+        font-size: 17px;
+        z-index: 1;
+    }
+}

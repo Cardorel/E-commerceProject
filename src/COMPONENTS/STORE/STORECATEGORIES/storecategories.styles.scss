@@ -1,0 +1,35 @@
+.categories__container {
+    background-color: #f0f0f0;
+    width: 30vw;
+    margin: 20px 0;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    justify-content: flex-end;
+
+    a {
+        color: black;
+        text-decoration: underline #88dd9b;
+        font-weight: 610;
+        font-size: 20px;
+    }
+}
+
+
+
+@media screen and (max-width: 425px) {
+    .row__categories {
+        padding: 0 !important;
+
+        .categories__container {
+            display: block;
+            padding: 0 !important;
+            .category__col__content {
+                width: 90px !important;
+                overflow: hidden;
+                a {
+                    font-size: 14px !important;
+                }
+            }
+        }
+    }
+}

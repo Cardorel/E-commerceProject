@@ -1,0 +1,121 @@
+.header__about__content {
+    width: 40vw;
+    margin: 90px auto 0 auto;
+    text-align: center;
+
+    h1 {
+        font-size: 60px;
+        margin-bottom: 20px;
+    }
+
+    p {
+        width: 29.1vw;
+        margin: auto;
+        line-height: 25px;
+    }
+
+    .bar__down__about {
+        width: 75px;
+        height: 3px;
+        background-color: rgb(136, 221, 155);
+        margin: 25px auto 0;
+    }
+}
+
+.container__for__navigation__about {
+    background-color: #f0f0f0;
+    opacity: .9;
+}
+
+
+.about__content__left {
+    width: 60vw;
+    margin: 90px auto 0;
+
+    .img__about {
+        width: 350px;
+    }
+
+    .about__paragraph__content__left {
+        margin-top: 15px;
+    }
+
+    .about__paragraph__content__right {
+        margin-top: 15px;
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+    .container__for__navigation__about {
+        text-align: center;
+    }
+
+
+    .row__navigation__content {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+     
+        .col__navigation__content {
+            margin: 0 !important;
+            padding: 0 !important;
+        }
+    }
+
+    .header__about__content {
+        width: 100%;
+        margin-top: 50px;
+
+        h1{
+            font-size: 35px !important;
+        }
+
+        p {
+            width: 90%;
+        }
+    }
+
+    .about__content__left {
+        width: 100% ;
+        margin: 35px 0 0 0 !important;
+
+        .img__about{
+            margin: 10px 0;
+        }
+
+        .about__paragraph__content__left {
+            margin-top: 0;
+        }
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+
+    .header__about__content {
+        h1 {
+            font-size: 45px;
+        }
+    }
+
+    .about__content__left {
+        width: 100%;
+        margin: 90px auto 0;
+
+        .img__about {
+            width: 250px;
+        }
+
+        h1 {
+            font-size: 25px;
+        }
+    }
+
+}
+
+@media screen and (min-width: 1020px) and (max-width: 1348px){
+    .about__content__left {
+        width: 80vw;
+    }
+}

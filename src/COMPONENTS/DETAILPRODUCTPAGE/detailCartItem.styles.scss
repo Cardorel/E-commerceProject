@@ -1,0 +1,102 @@
+   .img__left__detail__page {
+       width: 29%;
+       height: 590px;
+       position: absolute;
+       top: 0;
+       object-fit: cover;
+
+   }
+
+   .add__height__detail {
+       height: 869px;
+   }
+
+   .detail__page__flex__items {
+       position: relative;
+       width: 70%;
+       height: 55vh;
+       margin: 30px auto;
+       display: grid;
+       align-items: center;
+
+       .Img__product__cart__item {
+           width: 90%;
+           height: 350px;
+           object-fit: cover;
+
+       }
+
+
+       .btn__add__to__Cart__detail__Page {
+           background-color: rgb(136, 221, 155);
+           border: none;
+           padding: 10px;
+           width: 40%;
+           margin: 15px 0;
+           font-size: 20px;
+           font-weight: bolder;
+       }
+
+       .Icon__shop__detail__page {
+           font-weight: 0;
+           font-size: 17px;
+           margin-right: 10px;
+
+       }
+   }
+
+
+   @media screen and (max-width: 425px) {
+       .add__height__detail {
+           height: 749px;
+       }
+
+       .detail__page__flex__items {
+           width: 90%;
+           margin-top: 50px;
+
+           h1 {
+               font-size: 24px;
+           }
+
+           h4 {
+               font-size: 22px;
+               font-weight: bolder;
+           }
+
+           h3 {
+               font-size: 20px;
+           }
+
+           h6 {
+               font-size: 14px;
+           }
+
+           .Img__product__cart__item {
+               width: 90%;
+               height: 60%;
+               object-fit: cover;
+
+           }
+
+           .btn__add__to__Cart__detail__Page {
+               width: 100% !important;
+               font-size: 15px !important;
+           }
+       }
+   }
+
+
+   @media screen and (max-width: 800px) {
+       .btn__add__to__Cart__detail__Page {
+           width: 80% !important;
+       }
+   }
+
+   @media screen and (min-width: 1020px) and (max-width: 1348px) {
+       .detail__page__flex__items {
+           .btn__add__to__Cart__detail__Page{
+            width: 50%;
+           }
+       }
+   }

@@ -1,0 +1,97 @@
+.jumbotron__container {
+    height: auto;
+
+    .Img__cart__item {
+        width: 100%;
+        height: 150px;
+        object-fit: cover;
+    }
+
+   
+
+    .product__item__container {
+        display: flex;
+        height: 80%;
+        padding-bottom: 25px;
+
+        .clear__items {
+            cursor: pointer;
+        }
+
+        .product__item__content {
+            padding-right: 35px;
+        }
+    }
+
+    .quantity__price__Container {
+        position: absolute;
+        right: 0;
+
+        .quantity__price__Content {
+            display: flex;
+
+            .quantity__content__incr__desc {
+                border: 1px solid #ddd;
+                padding: 10px 15px;
+
+                .btn__incr__descr {
+                    cursor: pointer;
+                }
+            }
+
+            .price__checkout {
+                padding-top: 52px;
+            }
+        }
+    }
+}
+
+.paragraph__text__empty{
+    height: 53.73vh;
+}
+
+.Btn__Back__To__store{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 425px) {
+    .jmb__container {
+        height: auto !important;    
+        .jumbotron__container {
+            height: auto;
+            .row{
+                display: flex;
+                flex-direction: column;          
+                .col-lg-9 {
+                    max-width: 100%;
+                    height: auto !important;
+                    padding: 0 !important;
+                    margin-top: 15px;
+                    .product__item__content{
+                        padding-right: 0 !important;
+                        text-align: center;
+                        margin-bottom: 75px;
+                    }
+                    .clear__items{
+                        padding: 0 !important;
+                    }
+                    
+                }
+            }
+
+            .quantity__price__Container {
+                position: absolute;
+                right: 5px;
+                bottom: 0;
+            }
+        }
+    }
+
+}
+
+
+@media screen and (min-width: 1441px) and (max-width: 2700px) {
+    .paragraph__text__empty{
+        height: 73.2vh;
+    }
+}

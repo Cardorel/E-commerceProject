@@ -1,0 +1,52 @@
+.About__component{
+    .footer__desing__in__about{
+        position: absolute;
+        bottom: 0;
+    }
+
+    .addBackground__About{
+        background-color: #f0f0f0;;
+    }
+
+    .add__height__about{
+        height: 2190px;
+    }
+}
+
+
+
+@media screen and (max-width: 800px){
+    .About__component{
+        .add__height__about{
+            height: 1757px !important;
+        }
+    }
+}
+
+@media screen and (min-width: 1020px) and (max-width: 1348px){
+    .About__component{
+        .add__height__about{
+            height: 2108px;
+        }
+    }
+}
+
+
+@media screen and (min-width: 1441px) and (max-width: 2700px) {
+    .About__component{
+        .add__height__about{
+            height: 2140px;
+        }
+    }
+}
+
+
+
+@media screen and (max-width: 425px){
+    .About__component{
+        .add__height__about{
+            height: 1835px !important;
+        }
+        
+    }
+}

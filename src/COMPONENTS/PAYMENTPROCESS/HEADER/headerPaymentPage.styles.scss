@@ -1,0 +1,19 @@
+.Arrow__Back__style{
+    color: rgb(136, 221, 155);
+    margin-right: 5px;
+}
+
+.go__to__home{
+    cursor: pointer;
+}
+
+@media screen  and (max-width: 425px){
+    .col{
+        padding: 0 !important;
+    }
+    .go__to__home{
+        span{
+           display: none;
+        }
+    }
+}

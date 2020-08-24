@@ -1,0 +1,115 @@
+.Col__interior__style {
+    max-height: 450px;
+
+    .Col__interior__content__style {
+        position: absolute;
+        top: 25px;
+
+        .paragraphs__design__Contenair {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 100%;
+            background-color: rgba(136, 221, 155, 0.8);
+            color: white;
+            display: grid;
+            justify-content: center;
+            align-items: center;
+
+            .btn__discover {
+                &:hover{
+                    background-color: rgba(136, 221, 155, 0.8);
+                    color: white;
+                }
+
+
+
+                a {
+                    color: white;
+
+                    &:hover{
+                        text-decoration: none;
+                    }
+                }
+            }
+
+
+
+        }
+
+        .img__interior__design {
+            object-fit: cover;
+            overflow: hidden;
+            max-height: 450px;
+        }
+    }
+
+}
+
+@media screen and (max-width: 425px) {
+
+    .Col__interior__style {
+        .paragraphs__design__Contenair {
+            h1 {
+                font-size: 17px !important;
+                text-align: center;
+            }
+
+            h6{
+                text-align: center;
+            }
+
+            .btn__discover__container{
+               text-align: center;
+            }
+        }
+    }
+
+}
+
+
+
+@media screen and (max-width: 800px) {
+    .Col__interior__style {
+        height: 257px;
+
+        .paragraphs__design__Contenair {
+            height: 257px;
+
+            h1 {
+                font-size: 22px;
+            }
+        }
+
+        .img__interior__design {
+            height: 257px !important;
+        }
+
+    }
+}
+
+
+
+@media screen and (min-width: 1020px) and (max-width: 1300px){
+    .Col__interior__style {
+        max-height: 350px !important;
+        .img__interior__design {
+            max-height: 350px !important;
+        }
+
+        .paragraphs__design__Content{
+            margin-left: 10px;
+        }
+    }
+}
+
+
+
+@media screen and (min-width: 1441px) and (max-width: 2700px) {
+    .Col__interior__content__style {
+        .paragraphs__design__Contenair {
+            justify-content: flex-start !important;
+            padding-left: 60px !important;
+        }
+    }
+}

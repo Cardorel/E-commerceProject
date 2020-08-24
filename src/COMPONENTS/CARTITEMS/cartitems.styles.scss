@@ -1,0 +1,118 @@
+.best__seller__Container__Home__Comp {
+    position: absolute;
+    top: 490px;
+    overflow: hidden;
+}
+
+.collectionItems {
+    margin-top: 300px;
+}
+
+.cart__item__Collection__Container {
+    .col__cart__item__collection {
+        .img__Cart__style {
+            height: 15rem;
+            object-fit: cover;
+            position: relative;
+            box-shadow: -72px 36px 56px rgba(0, 0, 0, 0.14);
+        }
+        .cart__Arrow__item {
+            position: absolute;
+            bottom: 10px;
+            right: 10px;
+            font-size: 45px;
+            cursor: pointer;
+            background-color: white;
+            padding: 5px;
+            border-radius: 6px;
+            z-index: 100;
+
+            color: rgb(136, 221, 155);
+            &:hover {
+                background-color: rgb(136, 221, 155);
+                color: white;
+                transition: all 300ms cubic-bezier(0.55, 0.055, 0.675, 0.19);
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .cart__item__Collection__Container {
+        margin: 0 20px !important;
+
+        .best__seller__Container__Home__Comp {
+            top: 550px;
+            left: 7px;
+        }
+
+        .cart__item__collection {
+            padding: 0 !important;
+
+            .row__cart__item__collection {
+                display: grid;
+                grid-template-columns: 1fr 1fr;
+            }
+
+            .cart__Arrow__item {
+                position: absolute;
+                bottom: 3px !important;
+                right: 4px !important;
+                font-size: 35px !important;
+            }
+
+            .col__cart__item__collection {
+                margin: 0 0 45px 0;
+                padding: 0 5px !important;
+            }
+
+
+            h2 {
+                margin: 17px 5px !important;
+                font-size: 25px;
+            }
+        }
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    .collectionItems {
+
+        .cart__item__collection {
+            margin: 0 !important;
+        }
+
+        h4 {
+            font-size: 18px !important;
+            margin-top: 10px;
+        }
+    }
+}
+
+@media screen and (min-width: 1441px) and (max-width: 2700px) {
+    .best__seller__Container__Home__Comp {
+        left: 10%;
+    }
+
+    .cart__item__Collection__Container {
+
+        .collectionItems {
+            margin-top: 450px;
+            margin-bottom: 60px;
+        }
+
+        .cart__item__collection {
+            .col__cart__item__collection {
+                h4 {
+                    margin-top: 10px;
+                }
+            }
+        }
+
+
+        .img__Cart__style {
+            height: 19rem;
+        }
+    }
+}

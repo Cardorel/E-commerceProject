@@ -1,0 +1,136 @@
+.row__navbar__margin {
+    padding-top: 50px;
+
+    .column__navbar {
+        font-size: 17px !important;
+
+        a {
+            color: white;
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+
+        p,span {
+            cursor: pointer;
+        }
+
+    }
+}
+
+
+
+.row__navbar__margin.black__nav {
+    padding-top: 50px;
+    a {
+        color: #343a40;
+
+        &:hover {
+            text-decoration: none;
+        }
+    }
+}
+
+.log__in__col {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    .border__Rad__displayname {
+        border-radius: 30%;
+        border: 1px solid white;
+        text-align: center;
+        width: 20%;
+        height: 100%;
+    }
+
+    .border__Rad__displayname_black{
+        border-radius: 30%;
+        border: 1px solid black;
+        text-align: center;
+        width: 20%;
+        height: 100%;
+    }
+}
+
+.modal__logout__Opacity__off {
+    opacity: 0;
+
+    &:hover {
+        opacity: 1
+    }
+}
+
+@media screen and (max-width: 320px){
+    .column__navbar.logo-header{
+       width: 53.33px !important;
+    }
+}
+
+
+@media screen and (max-width: 425px) {
+    .row__navbar__margin {
+        display: flex;
+        justify-content: center;
+        .col-lg-3.col , .col-lg-1.col{
+            text-align: center;
+            max-width: 47.33px;
+        }
+        .column__navbar {
+            font-size: 12px !important;
+            padding: 0 2px !important;
+
+            &.logo_header{
+                padding: 0 5px !important;
+                max-width: 53.33px
+            }
+        }
+
+    
+        .log__in__col {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .border__Rad__displayname {
+                width: 100%;
+            }
+
+            .border__Rad__displayname_black{
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 800px){
+    .row__navbar__margin {
+        .log__in__col {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .border__Rad__displayname {
+                width: 100%;
+            }
+
+            .border__Rad__displayname_black{
+                width: 100%;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 1020px) and (max-width: 1348px) {
+    .row__navbar__margin {
+        display: flex;
+        justify-content: center;
+
+        .column__navbar {
+            padding: 0 8px !important;
+
+            &:nth-child(1) {
+                padding: 0 5px !important;
+            }
+
+        }
+    }
+}

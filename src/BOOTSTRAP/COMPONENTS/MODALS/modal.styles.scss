@@ -1,0 +1,65 @@
+.logout__modal__style{
+    position: absolute;
+    right: 130px;
+    top: 55px;
+    z-index: 2000;
+    .logout__hover__style:hover{
+        color: rgb(165, 126, 126);
+        transition: 350ms ease-in-out;
+        cursor: pointer;
+    }
+}
+
+
+
+@media screen and (max-width: 375px){
+    .logout__modal__style{
+        right: 68px !important;
+        top: 65px !important;
+        .logout__hover__style{
+            padding: 3px !important;
+            p{
+                font-size: 10px !important;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 376px) and (max-width: 425px){
+    .logout__modal__style{
+        right: 75px !important;
+        top: 65px !important;
+        .logout__hover__style{
+            padding: 3px !important;
+            p{
+                font-size: 10px !important;
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 800px){
+    .logout__modal__style{
+        right: 170px;
+    }
+}
+
+
+
+@media screen and (min-width: 1021px) and (max-width: 1249px){
+    .logout__modal__style{
+        right: 100px !important;
+    }
+}
+
+@media screen and (min-width: 1250px) and (max-width: 1443px){
+    .logout__modal__style{
+        right: 145px !important;
+    }
+}
+
+@media screen and (min-width:1444px) and (max-width: 2700px) {
+    .logout__modal__style{
+        right: 269px !important;
+    }
+}

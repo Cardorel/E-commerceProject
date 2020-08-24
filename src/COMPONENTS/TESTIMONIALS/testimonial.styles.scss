@@ -1,0 +1,26 @@
+.quote__testimonial{
+    color: rgb(136, 221, 155);
+    font-size: 50px;
+}
+
+@media screen and (max-width: 425px) {
+    .header__testimonial{
+        margin: 15px 0 !important;
+    }
+    .row__testimonial{
+        display: grid;
+        grid-row: 1fr 1fr;
+        .col__testimonial{
+            margin: 15px 0;
+
+            .quote__testimonial{
+                font-size: 30px;
+            }
+
+            h3{
+                margin-top: 15px;
+            }
+        }
+    }
+}
+
