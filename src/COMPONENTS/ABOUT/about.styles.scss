@@ -9,7 +9,15 @@
     }
 
     .add__height__about{
-        height: calc(3 * 100vh + 120px) !important;
+        height: calc(3 * 100vh + 150px) !important;
+    }
+}
+
+@media screen and (max-width: 280px){
+    .About__component{
+        .add__height__about{
+            height: 1874px !important;
+        }
     }
 }
 
