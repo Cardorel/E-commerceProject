@@ -9,13 +9,32 @@
     }
 
     .add__height__about{
-        height: 2162px !important;
+        height: calc(3 * 100vh + 150px) !important;
+    }
+}
+
+
+@media screen and (max-width: 375px){
+    .About__component{
+        .add__height__about{
+            height: 1752px !important;
+        }
+        
     }
 }
 
 
 
-@media screen and (max-width: 800px){
+@media screen and (min-width: 376px) and (max-width: 425px){
+    .About__component{
+        .add__height__about{
+            height: 1835px;
+        }
+        
+    }
+}
+
+@media screen and (min-width: 426px) and (max-width: 800px){
     .About__component{
         .add__height__about{
             height: 1757px !important;
@@ -35,18 +54,11 @@
 @media screen and (min-width: 1441px) and (max-width: 2700px) {
     .About__component{
         .add__height__about{
-            height: 2110px !important;
+            height: 2120px !important;
         }
     }
 }
 
 
 
-@media screen and (max-width: 425px){
-    .About__component{
-        .add__height__about{
-            height: 1835px !important;
-        }
-        
-    }
-}
+

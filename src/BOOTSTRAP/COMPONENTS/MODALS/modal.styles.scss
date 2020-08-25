@@ -15,6 +15,9 @@
     right: 130px;
     top: 55px;
     z-index: 2000;
+    p{
+        font-family: 'Freckle Face', cursive !important;
+    }
     .logout__hover__style:hover{
         color: rgb(165, 126, 126);
         transition: 350ms ease-in-out;
@@ -37,7 +40,7 @@
 
 @media screen and (min-width: 321px) and (max-width: 375px){
     .logout__modal__style{
-        right: 93px !important;
+        right: 88px !important;
         @include logOutContainer;
     }
 }
@@ -71,6 +74,6 @@
 
 @media screen and (min-width:1444px) and (max-width: 2700px) {
     .logout__modal__style{
-        right: 249px !important;
+        right: 229px !important;
     }
 }
