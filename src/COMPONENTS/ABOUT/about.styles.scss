@@ -9,7 +9,7 @@
     }
 
     .add__height__about{
-        height: calc(3 * 100vh + 150px) !important;
+        height: calc(3 * 100vh + 120px) !important;
     }
 }
 
@@ -25,7 +25,7 @@
 @media screen and (min-width: 321px) and (max-width: 375px){
     .About__component{
         .add__height__about{
-            height: 1782px !important;
+            height: 1752px !important;
         }
         
     }
@@ -44,7 +44,7 @@
 @media screen and (min-width: 412px) and (max-width: 425px){
     .About__component{
         .add__height__about{
-            height: 1700px !important;
+            height: 1835px;
         }
         
     }
