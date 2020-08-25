@@ -13,8 +13,16 @@
     }
 }
 
+@media screen and (min-width: 281px) and (max-width: 320px){
+    .About__component{
+        .add__height__about{
+            height: 1833px !important;
+        }
+        
+    }
+}
 
-@media screen and (max-width: 375px){
+@media screen and (min-width: 321px) and (max-width: 375px){
     .About__component{
         .add__height__about{
             height: 1752px !important;
@@ -23,9 +31,17 @@
     }
 }
 
+@media screen and (min-width: 376px) and (max-width: 411px){
+    .About__component{
+        .add__height__about{
+            height: 1730px !important;
+        }
+        
+    }
+}
 
 
-@media screen and (min-width: 376px) and (max-width: 425px){
+@media screen and (min-width: 412px) and (max-width: 425px){
     .About__component{
         .add__height__about{
             height: 1835px;
@@ -58,7 +74,3 @@
         }
     }
 }
-
-
-
-

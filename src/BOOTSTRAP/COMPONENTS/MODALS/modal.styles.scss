@@ -29,10 +29,16 @@
     }
 }
 
-
-@media screen and (max-width: 320px){
+@media screen and (max-width: 280px){
     .logout__modal__style{
-        right: 67px !important;
+        right: 58px !important;
+        @include logOutContainer;
+    }
+}
+
+@media screen and (min-width: 281px) and (max-width: 320px){
+    .logout__modal__style{
+        right: 67px;
         @include logOutContainer;
     }
 }
@@ -40,12 +46,20 @@
 
 @media screen and (min-width: 321px) and (max-width: 375px){
     .logout__modal__style{
-        right: 88px !important;
+        right: 95px;
         @include logOutContainer;
     }
 }
 
-@media screen and (min-width: 376px) and (max-width: 425px){
+@media screen and (min-width: 376px) and (max-width: 414px){
+    .logout__modal__style{
+        right: 114px !important;
+        @include logOutContainer;
+    }
+}
+
+
+@media screen and (min-width: 415px) and (max-width: 425px){
     .logout__modal__style{
         right: 119px !important;
         @include logOutContainer;

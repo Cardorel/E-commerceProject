@@ -1,11 +1,14 @@
 .store__All__Products {
-    margin-bottom: 55px;
-
     .img__Cart__style {
         height: 15rem;
         object-fit: cover;
         position: relative;
         box-shadow: -22px 36px 56px rgba(0, 0, 0, 0.14);
+    }
+
+    h4 {
+        height: 55px;
+        margin-top: 5px;
     }
 
     .cart__Arrow__item {
@@ -19,7 +22,6 @@
         border-radius: 6px;
         z-index: 100;
         color: rgb(136, 221, 155);
-
         &:hover {
             background-color: rgb(136, 221, 155);
             color: white;
