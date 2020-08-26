@@ -1,16 +1,26 @@
 .detail__page__Cart__Item {
-    background-image: url('https://i.ibb.co/pbZNwzq/photo-of-plants-on-the-table-105058.jpg');
+   background-image: url('https://i.ibb.co/pbZNwzq/photo-of-plants-on-the-table-105058.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    width: 100%;
+    width: 100% !important;
+    height: 100% !important;
     position: relative;
-
-    .detail__page__content {
-        position: absolute;
-        background-color: rgba(255, 255, 255, 0.8);
-        top: 0;
-        bottom: 0;
-        right: 0;
-        left: 0;
-    }
+    z-index: 0;
 }
+
+.detail__page__Cart__Item::after {
+    content: '';
+    position: absolute;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.8);
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+} 
+
+.detail__page__Cart__Item > * {
+    z-index: 10;
+    position: relative;
+}
+

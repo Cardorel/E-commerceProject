@@ -197,10 +197,6 @@
 
 @media screen and (min-width: 376px) and (max-width: 425px) {
     .faq__page {
-        .add__height__faq {
-            height: 2445px !important;
-        }
-
         @include faqContainer;
     }
 
@@ -248,19 +244,11 @@
             }
 
         }
-
-        .add__height__faq {
-            height: 2769px;
-        }
     }
 }
 
 @media screen and (min-width: 1020px) and (max-width: 1348px) {
     .faq__page {
-        .add__height__faq {
-            height: 2445px;
-        }
-
         .right__footer__faq__ {
             margin-left: 45px !important;
         }
@@ -269,10 +257,6 @@
 
 @media screen and (min-width: 1441px) and (max-width: 2700px) {
     .faq__page {
-        .add__height__faq {
-            height: 2056px;
-        }
-
         .img__footer__faq {
             width: auto;
         }

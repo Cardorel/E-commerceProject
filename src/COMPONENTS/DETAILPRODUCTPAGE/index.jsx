@@ -10,7 +10,8 @@ import BackgroundPageContainer from "./CONTAINERPAGEBACKGROUND";
 
 function DetailPage({ singleCart }) {
   return (
-    <BackgroundPageContainer addHeight="add__height__detail">
+    <div className="detail__page__container">
+    <BackgroundPageContainer overflow="hidden">
       <div>
         <ImageLayout
           src={imgUrl}
@@ -20,6 +21,7 @@ function DetailPage({ singleCart }) {
         <CartItemContent item={singleCart} />
       </div>
     </BackgroundPageContainer>
+    </div>
   );
 }
 

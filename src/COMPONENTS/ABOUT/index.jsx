@@ -7,7 +7,7 @@ import AboutsContent from "./CONTENT";
 export default function AboutPage() {
   return (
     <div className="About__component">
-      <BackgroundPageContainer addHeight="add__height__about">
+      <BackgroundPageContainer>
         <AboutsContent />
         <FooterDesign addBackground="addBackground__About"  className="footer__desing__in__about" />
       </BackgroundPageContainer>

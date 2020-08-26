@@ -1,14 +1,15 @@
-   .img__left__detail__page {
-       width: 29%;
-       height: 590px;
-       position: absolute;
-       top: 0;
-       object-fit: cover;
-
-   }
-
-   .add__height__detail {
-       height: 869px;
+   .detail__page__container {
+       .hidden{
+           overflow: hidden;
+       }
+       .img__left__detail__page {
+           width: 29%;
+           height: 100%;
+           position: absolute;
+           top: 0;
+           left: 0;
+           object-fit: cover;
+       }
    }
 
    .detail__page__flex__items {
@@ -95,8 +96,8 @@
 
    @media screen and (min-width: 1020px) and (max-width: 1348px) {
        .detail__page__flex__items {
-           .btn__add__to__Cart__detail__Page{
-            width: 50%;
+           .btn__add__to__Cart__detail__Page {
+               width: 50%;
            }
        }
    }
